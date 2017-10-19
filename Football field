@@ -1,0 +1,54 @@
+void setup() {
+  size(600, 400);
+  background(39,112,39);
+  
+}
+
+void draw() {
+  if(mousePressed){
+    fill(217,22,22);
+    ellipse(mouseX, mouseY, 10,10);
+   
+  }
+  
+//left side
+  fill(39,112,39);
+  ellipse(100,200,60,60);
+  stroke(255);
+  fill(39,112,39);
+  rect(0, 100, 100, 200);
+  stroke(255);
+  fill(39,112,39);
+  rect(0, 120, 50, 160);
+  rect(300,5,2,400);
+  fill(255);
+  ellipse(80, 200, 10,10); 
+  fill(39,112,39);
+  ellipse(0, 0, 60,60); 
+  fill(39,112,39);
+  ellipse(0,400, 60,60); 
+ 
+  
+// right side
+  fill(39,112,39);
+  ellipse(500,200,60,60);
+  stroke(255);
+  fill(39,112,39);
+  rect(500, 100, 100, 200);
+  stroke(255);
+  fill(39,112,39);
+  rect(550, 120, 50, 160);
+  fill(39,112,39);
+  ellipse(600, 0, 60,60); 
+  fill(39,112,39);
+  ellipse(600,400, 60,60); 
+  
+ //middle
+  stroke(255);
+  fill(39,112,39);
+  ellipse(302,height/2,60,60);
+  fill(255)
+  rect(300,5,2,400);
+  ellipse(520, 200, 10,10); 
+  
+}
